@@ -1,4 +1,4 @@
-# InternLLM Camp Repository
-This is a repository where I save my notes and projects about InternLLM camp.
+# PluggnDL: a code-generation platform based on LLM
+This is a platform based on LLM that can recommend deep-learning plugins to users. Meanwhile, users can also update the plugin base by uploading deep-learning plugins made by themselves.
 # Related Link
 https://github.com/InternLM/Tutorial
