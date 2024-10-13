@@ -1,3 +1,10 @@
-# PluggnDL: a code-generation platform based on LLM
-This is a platform based on LLM that can recommend deep-learning plugins to users. Meanwhile, users can also update the plugin base by uploading deep-learning plugins made by themselves.
+# install
+pip install haystack-ai
 
+pip install "datasets>=2.6.1"
+
+pip install "sentence-transformers>=3.0.0"
+# run
+python `pipeline.py`
+
+change `question` in `pipeline.py` to diy question
