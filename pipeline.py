@@ -17,7 +17,7 @@ basic_rag_pipeline.connect("text_embedder.embedding", "retriever.query_embedding
 basic_rag_pipeline.connect("retriever", "prompt_builder.documents")
 basic_rag_pipeline.connect("prompt_builder", "llm")
 
-question = "when did this paper published?"
+question = "Who is the author of the paper called dynamic snake convolution?"
 
 response = basic_rag_pipeline.run({"text_embedder": {"text": question}, "prompt_builder": {"question": question}})
 
