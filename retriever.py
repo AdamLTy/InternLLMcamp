@@ -1,0 +1,3 @@
+from haystack.components.retrievers.in_memory import InMemoryEmbeddingRetriever
+from documentstore import document_store
+retriever = InMemoryEmbeddingRetriever(document_store)
